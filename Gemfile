@@ -12,9 +12,9 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'redis', '~> 3.0'
-gem 'bcrypt', '~> 3.1.7'
+gem 'materialize-sass'
 
-group :production due
+group :production do
   gem 'rails_12factor'
 end
 

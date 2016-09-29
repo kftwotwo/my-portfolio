@@ -35,3 +35,17 @@
     </form>
   </div>
 </form>
+
+<%= form_for :contact do |f| %>
+  <%= f.label "First Name" %>
+  <%= f.text_field :firstname %>
+  <%= f.label "Last Name", :lastname %>
+  <%= f.text_field :lastname %>
+  <%= f.label "Email" %>
+  <%= f.text_field :email %>
+  <%= f.label "Subject" %>
+  <%= f.text_field :subject %>
+  <%= f.label "Message" %>
+  <%= f.text_area :message %>
+  <%= f.submit "Send" %>
+<% end %>

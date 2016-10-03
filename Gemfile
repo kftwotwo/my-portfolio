@@ -13,6 +13,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'redis', '~> 3.0'
 gem 'materialize-sass'
+gem 'sendgrid-ruby'
 
 group :production do
   gem 'rails_12factor'
@@ -22,6 +23,7 @@ group :development, :test do
   gem 'pry'
   gem 'byebug', platform: :mri
   gem 'pry-rails'
+  gem 'dotenv-rails'
 end
 
 group :development do

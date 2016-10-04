@@ -3,6 +3,7 @@ class ContactNotifier < ApplicationMailer
   def send_email(contact)
     @contact = contact
     mail( :to => "kf.two.two@gmail.com",
+    :from => @contact.email, 
     :subject => @contact.subject)
   end
 end

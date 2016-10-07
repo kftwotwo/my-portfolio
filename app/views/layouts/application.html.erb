@@ -13,6 +13,9 @@
     <%= render "./layouts/navbar" %>
     <main role="main">
       <div class="container">
+        <% flash.each do |key, value| %>
+        <div class="card-panel teal lighten-2"><%= value %></div>
+          <% end %>
         <%= yield %>
       </div>
     </main>

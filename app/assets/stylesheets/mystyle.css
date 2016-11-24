@@ -3,6 +3,11 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
+
+footer {
+  background-image: url('https://photos-3.dropbox.com/t/2/AAAdyFhDMGT3mhI55nTYVTrVTyPpMPVcukm-4SYP9LMwHQ/12/607810761/png/32x32/1/_/1/2/fabric_background.png/EMj_sPQEGAogAigC/ZdjQpbzswy_NsW9DWSp6yYAqZPn2cntF1UwrWACJeIk?size=1600x1200&size_mode=3');
+}
+
 iframe {
   margin: 0 auto;
 }
@@ -14,6 +19,7 @@ main {
 nav {
   padding-left: 58px;
   position: fixed;
+  background-image: url('https://photos-3.dropbox.com/t/2/AAAdyFhDMGT3mhI55nTYVTrVTyPpMPVcukm-4SYP9LMwHQ/12/607810761/png/32x32/1/_/1/2/fabric_background.png/EMj_sPQEGAogAigC/ZdjQpbzswy_NsW9DWSp6yYAqZPn2cntF1UwrWACJeIk?size=1600x1200&size_mode=3');
 }
 
 p {

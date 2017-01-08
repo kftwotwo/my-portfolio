@@ -41,7 +41,6 @@ h1,
     clear: both;
     position: relative;
     z-index: 10;
-    margin-top: 26em !important;
 }
 
 .footer-distributed{
@@ -51,7 +50,6 @@ h1,
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-
 	padding: 55px 50px;
 	margin-top: 80px;
 }
